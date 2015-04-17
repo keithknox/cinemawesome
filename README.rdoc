@@ -1,7 +1,6 @@
 == Welcome to Cinemaweso.me !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The app where no movie can hide! You will be able to search for any movie you desire, then favorite your movies after creating your Cinemaweso.me account!
 
 Things you may want to cover:
 
