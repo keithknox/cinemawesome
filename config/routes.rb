@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :movies, only:[:index, :show]
+  get 'movies/search' => 'movies#search_results'
+  resources :movies
   resources :favorites
+
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
