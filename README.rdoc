@@ -4,27 +4,17 @@ The app where no movie can hide! You will be able to search for any movie you de
 
 
 
-* 
+*  You can now search for any movie you want!!!
 
-* 
 
-* 
 
-* 
-
-* 
-
-* 
-
-* 
-
-* Deployment instructions
-
-* ...
 
 == Gems Required 
 * Devise
 * Omdb
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+= Deployment Instructions
+* 
+* 
+*
+*
