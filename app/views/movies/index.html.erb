@@ -2,3 +2,9 @@
   <p><%= link_to movie.title, movie_path(movie)%></p>
    <p><%= movie.year %></p>
 <% end %>
+
+
+<%= form_tag("/movies/"<%= @movies.name %>, method: "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
