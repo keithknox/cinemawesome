@@ -1,0 +1,30 @@
+== Welcome to Cinemaweso.me !
+
+The app where no movie can hide! You will be able to search for any movie you desire, then favorite your movies after creating your Cinemaweso.me account!
+
+
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* Deployment instructions
+
+* ...
+
+== Gems Required 
+* Devise
+* Omdb
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
