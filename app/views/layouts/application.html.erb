@@ -1,14 +1,24 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
-  <title>Cinemasawesome</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <title>Cinemawesome</title>
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <%= javascript_include_tag 'application'%>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
+  <header id="page-header">
 
-<%= yield %>
+    <span class="logo">CinemAwesome</span>
+    <%= image_tag("http://3.bp.blogspot.com/-4KVw0-hUMvg/TjaWAknkJdI/AAAAAAAAARg/FH4pSe4F1No/s1600/2_thumbs-up.jpg") %>
+    <ul class="nav">
+      <li><a href="/movies">Movies</a></li>
+    </ul>
+  </header>
+
+  <%= yield %>
 
 </body>
 </html>
